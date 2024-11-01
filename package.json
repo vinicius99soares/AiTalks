@@ -6,8 +6,8 @@
   "scripts": {
     "config": "node ./setup.js",
     "dev": "node dist/index.cjs",
-    "start": "pm2 start dist/index.cjs --name zap-gpt --no-daemon",
-    "stop": "npx pm2 delete zap-gpt"
+    "start": "pm2 start dist/index.cjs --name AiTalks --no-daemon",
+    "stop": "npx pm2 delete AiTalks"
   },
   "keywords": [],
   "author": {
